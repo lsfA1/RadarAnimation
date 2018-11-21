@@ -1,5 +1,4 @@
 # RadarAnimation
-# RadarAnimation
 
 ### 在view中画圆
 ```
@@ -36,3 +35,5 @@
         }];
         
     }];
+    
+    ![image](https://github.com/lsfA1/RadarAnimation/raw/master/RadarAnimation/screenshot/01.png)
