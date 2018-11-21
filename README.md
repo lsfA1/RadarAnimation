@@ -37,4 +37,4 @@
     }];
     
  ```
-    ![image](https://github.com/lsfA1/RadarAnimation/raw/master/RadarAnimation/screenshot/01.png)
+![image](https://github.com/lsfA1/RadarAnimation/raw/master/RadarAnimation/screenshot/01.png)
