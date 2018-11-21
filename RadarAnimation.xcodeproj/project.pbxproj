@@ -15,6 +15,7 @@
 		7132A6F221A4ED30005E997B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7132A6F121A4ED30005E997B /* main.m */; };
 		7132A6FC21A4ED30005E997B /* RadarAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7132A6FB21A4ED30005E997B /* RadarAnimationTests.m */; };
 		7132A70721A4ED30005E997B /* RadarAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7132A70621A4ED30005E997B /* RadarAnimationUITests.m */; };
+		7132A71621A4EDA3005E997B /* RadarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7132A71521A4EDA2005E997B /* RadarAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7132A70221A4ED30005E997B /* RadarAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadarAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7132A70621A4ED30005E997B /* RadarAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadarAnimationUITests.m; sourceTree = "<group>"; };
 		7132A70821A4ED30005E997B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7132A71421A4EDA2005E997B /* RadarAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadarAnimation.h; sourceTree = "<group>"; };
+		7132A71521A4EDA2005E997B /* RadarAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadarAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				7132A6E321A4ED2D005E997B /* AppDelegate.m */,
 				7132A6E521A4ED2D005E997B /* ViewController.h */,
 				7132A6E621A4ED2D005E997B /* ViewController.m */,
+				7132A71421A4EDA2005E997B /* RadarAnimation.h */,
+				7132A71521A4EDA2005E997B /* RadarAnimation.m */,
 				7132A6E821A4ED2D005E997B /* Main.storyboard */,
 				7132A6EB21A4ED30005E997B /* Assets.xcassets */,
 				7132A6ED21A4ED30005E997B /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7132A6E721A4ED2D005E997B /* ViewController.m in Sources */,
+				7132A71621A4EDA3005E997B /* RadarAnimation.m in Sources */,
 				7132A6F221A4ED30005E997B /* main.m in Sources */,
 				7132A6E421A4ED2D005E997B /* AppDelegate.m in Sources */,
 			);
