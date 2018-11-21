@@ -16,6 +16,7 @@
 		7132A6FC21A4ED30005E997B /* RadarAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7132A6FB21A4ED30005E997B /* RadarAnimationTests.m */; };
 		7132A70721A4ED30005E997B /* RadarAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7132A70621A4ED30005E997B /* RadarAnimationUITests.m */; };
 		7132A71621A4EDA3005E997B /* RadarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7132A71521A4EDA2005E997B /* RadarAnimation.m */; };
+		7132A71B21A4F584005E997B /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7132A71A21A4F584005E997B /* 01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		7132A70821A4ED30005E997B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7132A71421A4EDA2005E997B /* RadarAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadarAnimation.h; sourceTree = "<group>"; };
 		7132A71521A4EDA2005E997B /* RadarAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadarAnimation.m; sourceTree = "<group>"; };
+		7132A71A21A4F584005E997B /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		7132A6E121A4ED2D005E997B /* RadarAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				7132A71921A4F584005E997B /* screenshot */,
 				7132A6E221A4ED2D005E997B /* AppDelegate.h */,
 				7132A6E321A4ED2D005E997B /* AppDelegate.m */,
 				7132A6E521A4ED2D005E997B /* ViewController.h */,
@@ -135,6 +138,14 @@
 				7132A70821A4ED30005E997B /* Info.plist */,
 			);
 			path = RadarAnimationUITests;
+			sourceTree = "<group>";
+		};
+		7132A71921A4F584005E997B /* screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				7132A71A21A4F584005E997B /* 01.png */,
+			);
+			path = screenshot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +253,7 @@
 			files = (
 				7132A6EF21A4ED30005E997B /* LaunchScreen.storyboard in Resources */,
 				7132A6EC21A4ED30005E997B /* Assets.xcassets in Resources */,
+				7132A71B21A4F584005E997B /* 01.png in Resources */,
 				7132A6EA21A4ED2D005E997B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
